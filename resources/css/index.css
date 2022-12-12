@@ -1,0 +1,162 @@
+#landscape {
+  z-index: 100;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#hombre {
+  z-index: 99;
+}
+
+#mujer-0 {
+  z-index: 98;
+}
+
+#mujer-1 {
+  z-index: 97;
+}
+
+#mujer-2 {
+  z-index: 96;
+  background-color: #fff;
+}
+
+#logo {
+  position: relative;
+  z-index: 95;
+  left: 25;
+  background: radial-gradient(
+    circle at center,
+    #fff 0%,
+    #fff 47%,
+    #fff 47%,
+    transparent 47%,
+    transparent 48%
+  );
+}
+
+#fondo {
+  z-index: 94;
+}
+
+.container-box-cellphone {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  left: 526.07px;
+  top: 30.71px;
+  height: 691.31px;
+  width: 313.89px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#first-container {
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+#last-container {
+  margin-top: 50px;
+}
+
+.item-0 {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  height: auto;
+  width: auto;
+}
+
+.item-1 {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  height: auto;
+  width: auto;
+}
+
+.image-button {
+  position: relative;
+  width: 119px;
+  height: 119px;
+  z-index: 94;
+}
+
+.image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.image-content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+#close-button {
+  position: absolute;
+  top: 164px;
+  left: 779px;
+  width: 40px;
+  height: 40px;
+  z-index: 0;
+}
+
+#close-button-1 {
+  position: absolute;
+  top: 25.55px;
+  left: 844.84px;
+  width: 40px;
+  height: 40px;
+  z-index: 0;
+}
+
+#close-button-2 {
+  position: absolute;
+  top: 10px;
+  left: 1300px;
+  width: 40px;
+  height: 40px;
+  z-index: 0;
+}
+
+#creativo-content {
+  scale: 0;
+  left: 50vh;
+  height: 100vh;
+}
+
+#sistema-content {
+  scale: 0;
+}
+
+#close-button-2 {
+  scale: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
+
+body {
+  margin: 0px;
+}
